@@ -1,0 +1,12 @@
+name;rankingPoint;
+UAE Team Emirates - XRG;12480
+Team Visma | Lease a Bike;8309
+Alpecin - Deceuninck;6411
+Soudal Quick-Step;6980
+Movistar Team;4723
+Groupama - FDJ;5025
+Bahrain - Victorious;5028
+INEOS Grenadiers;6402
+EF Education - EasyPost;4807
+Red Bull - BORA - hansgrohe;6912
+Lidl - Trek;7017
