@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+  rodeflowserver-dev:
+    build: .
+    image: rodeflowserver_dev_image
+    container_name: rodeflowserver_dev_container
+    ports:
+      - "8280:8080"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:mysql://dev_db:3306/springboot
+      - SPRING_DATASOURCE_USERNAME=****
+      - SPRING_DATASOURCE_PASSWORD=****
+    depends_on:
+      - dev_db
+    restart: always
+
+  dev_db:
+    image: mysql:latest
+    container_name: dev_mysql_container
+    environment:
+      MYSQL_ROOT_PASSWORD: ****
+      MYSQL_DATABASE: ****
+    ports:
+      - "3308:3306"
+    restart: always
